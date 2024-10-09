@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+  }
+  nav {
+    position: fixed;
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: #f1f1f1e6;
+    width: 100%;
+  }
+  
+  .logo {
+    background: url(../img/nanote-removebg-preview.png) no-repeat 50% 50%;
+    background-size: contain;
+    width: 300px;
+    height: 100px;
+    float: left;
+  }
+  
+  
+  .menu {
+    position: absolute;
+    right: 20px;
+  }
+  
+  .menu a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 20px;
+    transition: color 0.3s;
+    text-transform: uppercase;
+    padding-left: 50px;
+  }
+  
+  .menu a:hover {
+    color: #e85860;
+    font-size: 17px
+  }
+  
+  header {
+    width: 100%;
+    height: 600px;
+    background: url(/img/nanorobots\ medicina.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    margin-top: 80px;
+  }
+  
+  .btn {
+    display: none;
+    position: absolute;
+    right: 20px;
+  }
+  .btn:hover > span {
+    background-color: #e85860;
+  }
+  .btn span {
+    display: block;
+    margin: 6px;
+    width: 40px;
+    height: 3px;
+    background: #333;
+  }
+  
+  p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+  }
+  
+  @media only screen and (max-width: 550px) {
+    nav {
+      overflow: visible;
+    }
+    .menu {
+      width: 100%;
+      right: 0;
+      top: 80px;
+      background: #f1f1f1e6;
+      overflow: hidden;
+      max-height: 0;
+    }
+    .menu a {
+      display: block;
+      text-align: center;
+      padding: 10px;
+      margin: 0;
+    }
+    .btn {
+      display: block;
+      cursor: pointer;
+    }
+    .show {
+      max-height: 500px;
+    }
+  }
+  
+  .dancing-script-uniquifier {
+    font-family: "Dancing Script";
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: italic;
+  }
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+  h1{
+    padding-left: 20px;
+    text-align: left;
+  }
+  h2{
+    padding-left: 20px;
+    text-align: left;
+  }
